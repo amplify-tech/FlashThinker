@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.db
+*.sqlite3
+
+# Virtual Environment
+venv/
+env/
+.venv/
+*.env
+
+# Flask specific
+instance/
+.webassets-cache
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
