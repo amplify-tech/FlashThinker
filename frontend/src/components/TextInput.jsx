@@ -21,7 +21,8 @@ const TextInput = ({ onSubmit }) => {
                 value={passage}
                 onChange={(e) => setPassage(e.target.value)}
             />
-            <Button variant="contained" color="primary" onClick={handleSubmit}>
+            <br/> <br/>
+            <Button variant="contained" color="primary" fullWidth="true" onClick={handleSubmit}>
                 Generate Questions
             </Button>
         </div>

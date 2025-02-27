@@ -9,15 +9,18 @@ const Home = () => {
 
     const handleGenerateQuestions = async (passage) => {
         const generatedQuestions = await generateQuestions(passage);
-        setQuestions(generatedQuestions);
+        setQuestions(["generatedQuestions", "sdfgh, dfg sfdgh"]);
     };
 
     return (
         <Container>
-            <Typography variant="h4" gutterBottom>
+            <br/>
+            <Typography variant="h5" gutterBottom>
                 Paragraph Reading
             </Typography>
+            <br/>
             <TextInput onSubmit={handleGenerateQuestions} />
+            <br/>
             <QuestionList questions={questions} />
         </Container>
     );
