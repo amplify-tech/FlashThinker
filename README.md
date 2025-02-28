@@ -35,7 +35,7 @@ the POST API http://127.0.0.1:5000/api/generate-questions  will give list of que
 
 3. Start the React development server:
 
-    `npm run dev`
+    `npm run dev -- --port 5173`
 
 The frontend should now be running at http://localhost:5173
 
